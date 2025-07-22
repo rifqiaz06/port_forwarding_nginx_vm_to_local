@@ -11,14 +11,15 @@ Klik ikon "Add new port forwarding rule" (ikon plus).
 
 <img width="658" height="427" alt="Screenshot 2025-07-22 213941" src="https://github.com/user-attachments/assets/99524e44-e4f0-4c75-9a25-b9486d0550ef" />
 
-<img width="658" height="190" alt="Screenshot 2025-07-23 003500" src="https://github.com/user-attachments/assets/504ac2c9-39ef-4a50-a2f4-78f0b0ccdf90" />
-
 <img width="655" height="424" alt="Screenshot 2025-07-22 214733" src="https://github.com/user-attachments/assets/58783d6b-9201-48ad-a0ac-2780133f1402" />
+
+<img width="658" height="190" alt="Screenshot 2025-07-23 003500" src="https://github.com/user-attachments/assets/584156c0-cbda-4e6b-b5bf-6ab6e5050767" />
+
 
 ### Isi aturan penerusan port sebagai berikut:
 **Host IP:** Bisa diisi dengan `127.0.0.1` (untuk mengakses dari komputer lokal) atau dikosongkan jika ingin menyesuaikan dengan IP yang didapatkan dari DHCP host. 
 **Host Port:** Pilih port yang akan digunakan untuk mengakses Nginx dari komputer lokal (misalnya, `8080`).
-**Guest IP:** Masukkan alamat IP mesin virtual Anda (misalnya, `10.0.2.15` atau sesuai yang didapatkan dari VM). 
+**Guest IP:** Masukkan alamat IP mesin virtual Anda (misalnya, `192.168.0.11` atau sesuai yang didapatkan dari VM). 
 **Guest Port:** Masukkan port tempat Nginx berjalan di mesin virtual (biasanya `80` untuk HTTP atau `443` untuk HTTPS). 
 Klik "OK" untuk menyimpan aturan. 
 
