@@ -17,11 +17,11 @@ Klik ikon "Add new port forwarding rule" (ikon plus).
 
 
 ### Isi aturan penerusan port sebagai berikut:
-**Host IP:** Bisa diisi dengan `127.0.0.1` (untuk mengakses dari komputer lokal) atau dikosongkan jika ingin menyesuaikan dengan IP yang didapatkan dari DHCP host. 
-**Host Port:** Pilih port yang akan digunakan untuk mengakses Nginx dari komputer lokal (misalnya, `8080`).
-**Guest IP:** Masukkan alamat IP mesin virtual Anda (misalnya, `192.168.0.11` atau sesuai yang didapatkan dari VM). 
-**Guest Port:** Masukkan port tempat Nginx berjalan di mesin virtual (biasanya `80` untuk HTTP atau `443` untuk HTTPS). 
-Klik "OK" untuk menyimpan aturan. 
+- **Host IP:** Bisa diisi dengan `127.0.0.1` (untuk mengakses dari komputer lokal) atau dikosongkan jika ingin menyesuaikan dengan IP yang didapatkan dari DHCP host.
+- **Host Port:** Pilih port yang akan digunakan untuk mengakses Nginx dari komputer lokal (misalnya, `8080`).
+- **Guest IP:** Masukkan alamat IP mesin virtual Anda (misalnya, `192.168.0.11` atau sesuai yang didapatkan dari VM). 
+- **Guest Port:** Masukkan port tempat Nginx berjalan di mesin virtual (biasanya `80` untuk HTTP atau `443` untuk HTTPS). 
+- Klik "OK" untuk menyimpan aturan. 
 
 ## 4. Mulai Mesin Virtual:
 Pastikan mesin virtual sudah berjalan.
@@ -29,10 +29,10 @@ Buka browser di komputer lokal Anda.
 Akses server Nginx dengan mengetikkan `http://127.0.0.1:8080` (atau port yang Anda pilih) di bilah alamat. 
 
 ### Penjelasan Tambahan:
-**NAT (Network Address Translation)**: NAT adalah mode jaringan default di VirtualBox yang memungkinkan mesin virtual terhubung ke internet melalui host. Penerusan port adalah cara untuk mengakses layanan di dalam mesin virtual dari luar jaringan. 
-**Host IP**: Alamat IP komputer Anda yang digunakan untuk mengakses mesin virtual. Jika dikosongkan, VirtualBox akan menggunakan alamat IP yang diberikan oleh DHCP. 
-**Host Port**: Port pada komputer host yang akan meneruskan permintaan ke mesin virtual. 
-**Guest IP**: Alamat IP mesin virtual Anda di dalam jaringan virtual. 
-**Guest Port**: Port yang digunakan oleh server Nginx di dalam mesin virtual. 
+- **NAT (Network Address Translation)**: NAT adalah mode jaringan default di VirtualBox yang memungkinkan mesin virtual terhubung ke internet melalui host. Penerusan port adalah cara untuk mengakses layanan di dalam mesin virtual dari luar jaringan. 
+- **Host IP**: Alamat IP komputer Anda yang digunakan untuk mengakses mesin virtual. Jika dikosongkan, VirtualBox akan menggunakan alamat IP yang diberikan oleh DHCP. 
+- **Host Port**: Port pada komputer host yang akan meneruskan permintaan ke mesin virtual. 
+- **Guest IP**: Alamat IP mesin virtual Anda di dalam jaringan virtual. 
+- **Guest Port**: Port yang digunakan oleh server Nginx di dalam mesin virtual. 
 
 Dengan mengikuti langkah-langkah di atas, Anda seharusnya sudah bisa mengakses server Nginx yang berjalan di VirtualBox dari komputer lokal Anda melalui port forwarding. 
